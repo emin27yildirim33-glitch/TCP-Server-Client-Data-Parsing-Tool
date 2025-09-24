@@ -13,13 +13,13 @@ ________________________________________
    - The application covers all essential TCP server-client requirements (port, start, stop, echo, connect, disconnect, server, client, send, etc.).
 
    ![Main UI](./TCPTool/docs/screenshot.png)
-   ![Server UI Detail](./docs/screenshot3.png)
+   ![Server UI Detail](./TCPTool/docs/screenshot3.png)
    
 2. **Receiving Data**
    - As a starting point, we open a port and connect to the server. Suppose the device sends the following 60-byte payload:
      `7E 02 AB CD 37 00 00 00 19 44 7D 13 33 00 3C 01 00 00 D4 31 0E 74 42 24 0C 98 41 E8 19 31 42 F1 00 00 00 50 E4 02 01 00 5A 00 00 1C 20 01 9F 00 7B 0B AB 01 02 03 04 65 00 04 A0 7F`
 
-   ![Incoming Data / Capture](./docs/data_parsing2.png)
+   ![Incoming Data / Capture](./TCPTool/docs/data_parsing2.png)
    
 3. **Device Configuration**
    - In the Devices section of the server, you can select the device and enter its name.
@@ -27,8 +27,8 @@ ________________________________________
      - or use the Import JSON button to load a JSON file containing the device's datasheet parameters. (A pop-up will open, allowing you to choose a JSON file from any location on your computer.)
    - This is especially useful for devices with many parameters. Once the configuration is complete, click Save.
 
-   ![Device Parameters](./docs/device_config1.png)
-   ![Device Empty State](./docs/device_config2.png)
+   ![Device Parameters](./TCPTool/docs/device_config1.png)
+   ![Device Empty State](./TCPTool/docs/device_config2.png)
 
 4. **Data Parsing**
    - After configuring the device, you can move to the data parsing step.
@@ -36,14 +36,14 @@ ________________________________________
      - Click Capture Last Received Data.
      - The tool will capture the latest raw data (in hex or binary), parse it according to the configured parameters, and transfer the results to the Reports section under Manage Devices.
 
-   ![Data Parsing Results](./docs/data_parsing1.png)
-   ![Data Parsing (Capture View)](./docs/data_parsing3.png)
+   ![Data Parsing Results](./TCPTool/docs/data_parsing1.png)
+   ![Data Parsing (Capture View)](./TCPTool/docs/data_parsing3.png)
 
 5. **Reports & Export**
    - In the Reports section, the most recent data appears at the top, along with its timestamp and raw data.
    - An Export column allows you to download the parsed data. Clicking the download icon opens a pop-up to save the interpreted data as a JSON file on your computer.
 
-   ![Export Dialog](./docs/reports_export1.png)
+   ![Export Dialog](./TCPTool/docs/reports_export1.png)
 
 ________________________________________
 
@@ -166,6 +166,7 @@ Below is an example of exported device data:
 3. Open Manage Devices to create or import a device definition (use Import JSON to load datasheet fields), then Save.
 4. In Manage Devices > Parsing, select the device and click "Capture Last Received Data" to parse the most recent payload.
 5. Switch to Reports to review parsed results. Use the Export button to save parsed reports as JSON
+
 
 
 
