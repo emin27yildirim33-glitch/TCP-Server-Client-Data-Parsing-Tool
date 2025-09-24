@@ -12,7 +12,7 @@ ________________________________________
 1. **Basic TCP Server-Client Functions**
    - The application covers all essential TCP server-client requirements (port, start, stop, echo, connect, disconnect, server, client, send, etc.).
 
-   ![Main UI](.TCPTool/docs/screenshot.png)
+   ![Main UI](./TCPTool/docs/screenshot.png)
    ![Server UI Detail](./docs/screenshot3.png)
    
 2. **Receiving Data**
@@ -166,5 +166,6 @@ Below is an example of exported device data:
 3. Open Manage Devices to create or import a device definition (use Import JSON to load datasheet fields), then Save.
 4. In Manage Devices > Parsing, select the device and click "Capture Last Received Data" to parse the most recent payload.
 5. Switch to Reports to review parsed results. Use the Export button to save parsed reports as JSON
+
 
 
