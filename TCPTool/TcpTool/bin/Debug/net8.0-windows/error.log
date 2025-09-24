@@ -1,0 +1,52 @@
+[2025-08-29 11:04:09] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 293
+   at TcpTool.MainForm..ctor() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 36
+   at TcpTool.Program.Main() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-08-29 11:16:27] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 293
+   at TcpTool.MainForm..ctor() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 36
+   at TcpTool.Program.Main() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-09-11 16:38:13] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 289
+   at TcpTool.MainForm..ctor() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 38
+   at TcpTool.Program.Main() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-09-11 16:38:22] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 289
+   at TcpTool.MainForm..ctor() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 38
+   at TcpTool.Program.Main() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-09-11 16:40:22] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 289
+   at TcpTool.MainForm..ctor() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 38
+   at TcpTool.Program.Main() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-09-11 16:40:29] System.NullReferenceException: Object reference not set to an instance of an object.
+   at TcpTool.MainForm.InitializeComponent() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 289
+   at TcpTool.MainForm..ctor() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 38
+   at TcpTool.Program.Main() in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21
+[2025-09-12 14:20:38] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:45] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:47] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:51] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:54] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:56] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)
+[2025-09-12 14:20:57] System.OverflowException: Arithmetic operation resulted in an overflow.
+   at System.IntPtr.ToInt32()
+   at TcpTool.ScrollableTextBox.WndProc(Message& m) in C:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 51
+   at System.Windows.Forms.NativeWindow.Callback(HWND hWnd, MessageId msg, WPARAM wparam, LPARAM lparam)

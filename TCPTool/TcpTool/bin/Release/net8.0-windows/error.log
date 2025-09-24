@@ -1,0 +1,6 @@
+[2025-08-26 11:59:40] System.InvalidOperationException: SplitterDistance must be between Panel1MinSize and Width - Panel2MinSize.
+   at System.Windows.Forms.SplitContainer.set_SplitterDistance(Int32 value)
+   at System.Windows.Forms.SplitContainer.ApplyPanel2MinSize(Int32 value)
+   at TcpTool.MainForm.InitializeComponent() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.Designer.cs:line 87
+   at TcpTool.MainForm..ctor() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\MainForm.cs:line 26
+   at TcpTool.Program.Main() in c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\Program.cs:line 21

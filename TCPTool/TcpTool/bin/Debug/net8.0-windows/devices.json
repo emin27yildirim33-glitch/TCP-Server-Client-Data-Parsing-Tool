@@ -1,0 +1,2936 @@
+[
+  {
+    "Name": "60bytedata",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "version",
+        "Meaning": "version",
+        "Offset": 1,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "deviceID",
+        "Meaning": "deviceID",
+        "Offset": 2,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 4,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "temperature",
+        "Meaning": "temperature",
+        "Offset": 5,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 9,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "humidity",
+        "Meaning": "humidity",
+        "Offset": 13,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "status",
+        "Meaning": "status",
+        "Offset": 15,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "counter",
+        "Meaning": "counter",
+        "Offset": 16,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "battery",
+        "Meaning": "battery",
+        "Offset": 20,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "latitude",
+        "Meaning": "latitude",
+        "Offset": 22,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "longitude",
+        "Meaning": "longitude",
+        "Offset": 26,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "altitude",
+        "Meaning": "altitude",
+        "Offset": 30,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "speed",
+        "Meaning": "speed",
+        "Offset": 34,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "rssi",
+        "Meaning": "rssi",
+        "Offset": 36,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "fwVersion",
+        "Meaning": "fwVersion",
+        "Offset": 37,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "errorCode",
+        "Meaning": "errorCode",
+        "Offset": 39,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "signalQual",
+        "Meaning": "signalQual",
+        "Offset": 40,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "uptime",
+        "Meaning": "uptime",
+        "Offset": 41,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "co2 ppm",
+        "Meaning": "co2 ppm",
+        "Offset": 45,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "voc level",
+        "Meaning": "voc level",
+        "Offset": 47,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "checksum",
+        "Meaning": "checksum",
+        "Offset": 49,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "reserved",
+        "Meaning": "reserved",
+        "Offset": 51,
+        "Length": 4,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "timestamp",
+        "Meaning": "timestamp",
+        "Offset": 55,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 59,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": [
+      {
+        "Timestamp": "2025-09-12T16:10:53.7153141+03:00",
+        "RawDataHex": "7E 02 AB CD 37 00 00 00 19 44 7D 13 33 00 3C 01 00 00 D4 31 0E 74 42 24 0C 98 41 E8 19 31 42 F1 00 00 00 50 E4 02 01 00 5A 00 00 1C 20 01 9F 00 7B 0B AB 01 02 03 04 65 00 04 A0 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 43981,
+            "DisplayValue": "43981",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 55,
+            "DisplayValue": "55",
+            "Offset": 4,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "temperature",
+            "Meaning": "temperature",
+            "ParsedValue": 25,
+            "DisplayValue": "25",
+            "Offset": 5,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1012.3,
+            "DisplayValue": "1012.299988",
+            "Offset": 9,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 60,
+            "DisplayValue": "60",
+            "Offset": 13,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 15,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 54321,
+            "DisplayValue": "54321",
+            "Offset": 16,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3700,
+            "DisplayValue": "3700",
+            "Offset": 20,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 41.0123,
+            "DisplayValue": "41.012299",
+            "Offset": 22,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 29.0123,
+            "DisplayValue": "29.012300",
+            "Offset": 26,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "altitude",
+            "Meaning": "altitude",
+            "ParsedValue": 120.5,
+            "DisplayValue": "120.500000",
+            "Offset": 30,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "speed",
+            "Meaning": "speed",
+            "ParsedValue": 80,
+            "DisplayValue": "80",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -28,
+            "DisplayValue": "-28",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 513,
+            "DisplayValue": "513",
+            "Offset": 37,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 39,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "signalQual",
+            "Meaning": "signalQual",
+            "ParsedValue": 90,
+            "DisplayValue": "90",
+            "Offset": 40,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "uptime",
+            "Meaning": "uptime",
+            "ParsedValue": 7200,
+            "DisplayValue": "7200",
+            "Offset": 41,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "co2 ppm",
+            "Meaning": "co2 ppm",
+            "ParsedValue": 415,
+            "DisplayValue": "415",
+            "Offset": 45,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "voc level",
+            "Meaning": "voc level",
+            "ParsedValue": 123,
+            "DisplayValue": "123",
+            "Offset": 47,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "checksum",
+            "Meaning": "checksum",
+            "ParsedValue": 2987,
+            "DisplayValue": "2987",
+            "Offset": 49,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "reserved",
+            "Meaning": "reserved",
+            "ParsedValue": "01 02 03 04",
+            "DisplayValue": "01 02 03 04",
+            "Offset": 51,
+            "Length": 4,
+            "Type": 8
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1694500000,
+            "DisplayValue": "1694500000",
+            "Offset": 55,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 59,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "60bytedata"
+      },
+      {
+        "Timestamp": "2025-09-12T17:07:41.9595349+03:00",
+        "RawDataHex": "7E 02 AB CD 37 00 00 00 19 44 7D 13 33 00 3C 01 00 00 D4 31 0E 74 42 24 0C 98 41 E8 19 31 42 F1 00 00 00 50 E4 02 01 00 5A 00 00 1C 20 01 9F 00 7B 0B AB 01 02 03 04 65 00 04 A0 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 43981,
+            "DisplayValue": "43981",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 55,
+            "DisplayValue": "55",
+            "Offset": 4,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "temperature",
+            "Meaning": "temperature",
+            "ParsedValue": 25,
+            "DisplayValue": "25",
+            "Offset": 5,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1012.3,
+            "DisplayValue": "1012.299988",
+            "Offset": 9,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 60,
+            "DisplayValue": "60",
+            "Offset": 13,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 15,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 54321,
+            "DisplayValue": "54321",
+            "Offset": 16,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3700,
+            "DisplayValue": "3700",
+            "Offset": 20,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 41.0123,
+            "DisplayValue": "41.012299",
+            "Offset": 22,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 29.0123,
+            "DisplayValue": "29.012300",
+            "Offset": 26,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "altitude",
+            "Meaning": "altitude",
+            "ParsedValue": 120.5,
+            "DisplayValue": "120.500000",
+            "Offset": 30,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "speed",
+            "Meaning": "speed",
+            "ParsedValue": 80,
+            "DisplayValue": "80",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -28,
+            "DisplayValue": "-28",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 513,
+            "DisplayValue": "513",
+            "Offset": 37,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 39,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "signalQual",
+            "Meaning": "signalQual",
+            "ParsedValue": 90,
+            "DisplayValue": "90",
+            "Offset": 40,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "uptime",
+            "Meaning": "uptime",
+            "ParsedValue": 7200,
+            "DisplayValue": "7200",
+            "Offset": 41,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "co2 ppm",
+            "Meaning": "co2 ppm",
+            "ParsedValue": 415,
+            "DisplayValue": "415",
+            "Offset": 45,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "voc level",
+            "Meaning": "voc level",
+            "ParsedValue": 123,
+            "DisplayValue": "123",
+            "Offset": 47,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "checksum",
+            "Meaning": "checksum",
+            "ParsedValue": 2987,
+            "DisplayValue": "2987",
+            "Offset": 49,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "reserved",
+            "Meaning": "reserved",
+            "ParsedValue": "01 02 03 04",
+            "DisplayValue": "01 02 03 04",
+            "Offset": 51,
+            "Length": 4,
+            "Type": 8
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1694500000,
+            "DisplayValue": "1694500000",
+            "Offset": 55,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 59,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "60bytedata"
+      },
+      {
+        "Timestamp": "2025-09-24T17:47:07.9470037+03:00",
+        "RawDataHex": "7E 02 AB CD 37 00 00 00 19 44 7D 13 33 00 3C 01 00 00 D4 31 0E 74 42 24 0C 98 41 E8 19 31 42 F1 00 00 00 50 E4 02 01 00 5A 00 00 1C 20 01 9F 00 7B 0B AB 01 02 03 04 65 00 04 A0 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 43981,
+            "DisplayValue": "43981",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 55,
+            "DisplayValue": "55",
+            "Offset": 4,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "temperature",
+            "Meaning": "temperature",
+            "ParsedValue": 25,
+            "DisplayValue": "25",
+            "Offset": 5,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1012.3,
+            "DisplayValue": "1012.299988",
+            "Offset": 9,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 60,
+            "DisplayValue": "60",
+            "Offset": 13,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 15,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 54321,
+            "DisplayValue": "54321",
+            "Offset": 16,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3700,
+            "DisplayValue": "3700",
+            "Offset": 20,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 41.0123,
+            "DisplayValue": "41.012299",
+            "Offset": 22,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 29.0123,
+            "DisplayValue": "29.012300",
+            "Offset": 26,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "altitude",
+            "Meaning": "altitude",
+            "ParsedValue": 120.5,
+            "DisplayValue": "120.500000",
+            "Offset": 30,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "speed",
+            "Meaning": "speed",
+            "ParsedValue": 80,
+            "DisplayValue": "80",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -28,
+            "DisplayValue": "-28",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 513,
+            "DisplayValue": "513",
+            "Offset": 37,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 39,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "signalQual",
+            "Meaning": "signalQual",
+            "ParsedValue": 90,
+            "DisplayValue": "90",
+            "Offset": 40,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "uptime",
+            "Meaning": "uptime",
+            "ParsedValue": 7200,
+            "DisplayValue": "7200",
+            "Offset": 41,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "co2 ppm",
+            "Meaning": "co2 ppm",
+            "ParsedValue": 415,
+            "DisplayValue": "415",
+            "Offset": 45,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "voc level",
+            "Meaning": "voc level",
+            "ParsedValue": 123,
+            "DisplayValue": "123",
+            "Offset": 47,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "checksum",
+            "Meaning": "checksum",
+            "ParsedValue": 2987,
+            "DisplayValue": "2987",
+            "Offset": 49,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "reserved",
+            "Meaning": "reserved",
+            "ParsedValue": "01 02 03 04",
+            "DisplayValue": "01 02 03 04",
+            "Offset": 51,
+            "Length": 4,
+            "Type": 8
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1694500000,
+            "DisplayValue": "1694500000",
+            "Offset": 55,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 59,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "60bytedata"
+      }
+    ]
+  },
+  {
+    "Name": "Device 5",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 2",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "60bytedevice",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "version",
+        "Meaning": "version",
+        "Offset": 1,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "deviceID",
+        "Meaning": "deviceID",
+        "Offset": 2,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 4,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "temperature",
+        "Meaning": "temperature",
+        "Offset": 5,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 9,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "humidity",
+        "Meaning": "humidity",
+        "Offset": 13,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "status",
+        "Meaning": "status",
+        "Offset": 15,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "counter",
+        "Meaning": "counter",
+        "Offset": 16,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "battery",
+        "Meaning": "battery",
+        "Offset": 20,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "latitude",
+        "Meaning": "latitude",
+        "Offset": 22,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "longitude",
+        "Meaning": "longitude",
+        "Offset": 26,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "altitude",
+        "Meaning": "altitude",
+        "Offset": 30,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "speed",
+        "Meaning": "speed",
+        "Offset": 34,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "rssi",
+        "Meaning": "rssi",
+        "Offset": 36,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "fwVersion",
+        "Meaning": "fwVersion",
+        "Offset": 37,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "errorCode",
+        "Meaning": "errorCode",
+        "Offset": 39,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "signalQual",
+        "Meaning": "signalQual",
+        "Offset": 40,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "uptime",
+        "Meaning": "uptime",
+        "Offset": 41,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "co2 ppm",
+        "Meaning": "co2 ppm",
+        "Offset": 45,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "voc level",
+        "Meaning": "voc level",
+        "Offset": 47,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "checksum",
+        "Meaning": "checksum",
+        "Offset": 49,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "reserved",
+        "Meaning": "reserved",
+        "Offset": 51,
+        "Length": 4,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "timestamp",
+        "Meaning": "timestamp",
+        "Offset": 55,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 59,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": [
+      {
+        "Timestamp": "2025-09-12T11:21:02.2735542+03:00",
+        "RawDataHex": "7E 02 AB CD 37 00 00 00 19 44 7D 13 33 00 3C 01 00 00 D4 31 0E 74 42 24 0C 98 41 E8 19 31 42 F1 00 00 00 50 E4 02 01 00 5A 00 00 1C 20 01 9F 00 7B 0B AB 01 02 03 04 65 00 04 A0 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 43981,
+            "DisplayValue": "43981",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 55,
+            "DisplayValue": "55",
+            "Offset": 4,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "temperature",
+            "Meaning": "temperature",
+            "ParsedValue": 25,
+            "DisplayValue": "25",
+            "Offset": 5,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1012.3,
+            "DisplayValue": "1012.299988",
+            "Offset": 9,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 60,
+            "DisplayValue": "60",
+            "Offset": 13,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 15,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 54321,
+            "DisplayValue": "54321",
+            "Offset": 16,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3700,
+            "DisplayValue": "3700",
+            "Offset": 20,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 41.0123,
+            "DisplayValue": "41.012299",
+            "Offset": 22,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 29.0123,
+            "DisplayValue": "29.012300",
+            "Offset": 26,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "altitude",
+            "Meaning": "altitude",
+            "ParsedValue": 120.5,
+            "DisplayValue": "120.500000",
+            "Offset": 30,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "speed",
+            "Meaning": "speed",
+            "ParsedValue": 80,
+            "DisplayValue": "80",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -28,
+            "DisplayValue": "-28",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 513,
+            "DisplayValue": "513",
+            "Offset": 37,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 39,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "signalQual",
+            "Meaning": "signalQual",
+            "ParsedValue": 90,
+            "DisplayValue": "90",
+            "Offset": 40,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "uptime",
+            "Meaning": "uptime",
+            "ParsedValue": 7200,
+            "DisplayValue": "7200",
+            "Offset": 41,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "co2 ppm",
+            "Meaning": "co2 ppm",
+            "ParsedValue": 415,
+            "DisplayValue": "415",
+            "Offset": 45,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "voc level",
+            "Meaning": "voc level",
+            "ParsedValue": 123,
+            "DisplayValue": "123",
+            "Offset": 47,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "checksum",
+            "Meaning": "checksum",
+            "ParsedValue": 2987,
+            "DisplayValue": "2987",
+            "Offset": 49,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "reserved",
+            "Meaning": "reserved",
+            "ParsedValue": "01 02 03 04",
+            "DisplayValue": "01 02 03 04",
+            "Offset": 51,
+            "Length": 4,
+            "Type": 8
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1694500000,
+            "DisplayValue": "1694500000",
+            "Offset": 55,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 59,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "60bytedevice"
+      }
+    ]
+  },
+  {
+    "Name": "Device 3",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "bmp280",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": "37"
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 1,
+        "Length": 2,
+        "Type": 7,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "tempature",
+        "Meaning": "tempature",
+        "Offset": 3,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 7,
+        "Length": 1,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 8,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": []
+  },
+  {
+    "Name": "testdevice.20byte",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "version",
+        "Meaning": "version",
+        "Offset": 1,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "deviceID",
+        "Meaning": "deviceID",
+        "Offset": 2,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 4,
+        "Length": 2,
+        "Type": 7,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "tempature",
+        "Meaning": "tempature",
+        "Offset": 6,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 10,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "status",
+        "Meaning": "status",
+        "Offset": 14,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "counter",
+        "Meaning": "counter",
+        "Offset": 15,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 19,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": [
+      {
+        "Timestamp": "2025-09-10T17:33:48.8231676+03:00",
+        "RawDataHex": "7E 01 12 34 35 30 00 00 00 19 44 7A 00 00 01 00 00 00 2A FF",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4660,
+            "DisplayValue": "4660",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": "50",
+            "DisplayValue": "50",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 7
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 25,
+            "DisplayValue": "25",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1000,
+            "DisplayValue": "1000.000000",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 14,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 42,
+            "DisplayValue": "42",
+            "Offset": 15,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "FF",
+            "DisplayValue": "FF",
+            "Offset": 19,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.20byte"
+      },
+      {
+        "Timestamp": "2025-09-10T17:36:43.8061255+03:00",
+        "RawDataHex": "7E 02 12 35 36 00 00 00 1E 44 7A 80 00 00 00 00 00 63 FF",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4661,
+            "DisplayValue": "4661",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": "6",
+            "DisplayValue": "6",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 7
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 7748,
+            "DisplayValue": "7748",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 3.32307E+35,
+            "DisplayValue": "332306998946228968225951765070086144.000000",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 14,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 25599,
+            "DisplayValue": "25599",
+            "Offset": 15,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": null,
+            "DisplayValue": "Error: Offset 19 is out of range",
+            "Offset": 19,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.20byte"
+      },
+      {
+        "Timestamp": "2025-09-10T17:40:09.882194+03:00",
+        "RawDataHex": "7E 02 12 35 35 36 00 00 00 1E 44 7A 80 00 00 00 00 63 00 FF",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 2,
+            "DisplayValue": "2",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4661,
+            "DisplayValue": "4661",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": "56",
+            "DisplayValue": "56",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 7
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 30,
+            "DisplayValue": "30",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1002,
+            "DisplayValue": "1002.000000",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 14,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 25344,
+            "DisplayValue": "25344",
+            "Offset": 15,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "FF",
+            "DisplayValue": "FF",
+            "Offset": 19,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.20byte"
+      }
+    ]
+  },
+  {
+    "Name": "Device 23",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "testdevice.42byte",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "version",
+        "Meaning": "version",
+        "Offset": 1,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "deviceID",
+        "Meaning": "deviceID",
+        "Offset": 2,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 4,
+        "Length": 2,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "tempature",
+        "Meaning": "tempature",
+        "Offset": 6,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 10,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "humidity",
+        "Meaning": "humidity",
+        "Offset": 14,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "status",
+        "Meaning": "status",
+        "Offset": 18,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "counter",
+        "Meaning": "counter",
+        "Offset": 19,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "battery",
+        "Meaning": "battery",
+        "Offset": 23,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "latitude",
+        "Meaning": "latitude",
+        "Offset": 25,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "longitude",
+        "Meaning": "longitude",
+        "Offset": 29,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "rssi",
+        "Meaning": "rssi",
+        "Offset": 33,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "fwVersion",
+        "Meaning": "fwVersion",
+        "Offset": 34,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "errorCode",
+        "Meaning": "errorCode",
+        "Offset": 36,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "timestamp",
+        "Meaning": "timestamp",
+        "Offset": 37,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 41,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": [
+      {
+        "Timestamp": "2025-09-11T11:59:17.2144817+03:00",
+        "RawDataHex": "7E 04 12 34 38 30 00 00 00 1A 44 7C 80 00 00 00 00 01 00 00 00 2A 0B C4 42 48 7A E1 41 6E 8F 5C E2 01 05 67 67 2B 2B 2B FF",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 4,
+            "DisplayValue": "4",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4660,
+            "DisplayValue": "4660",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": "80",
+            "DisplayValue": "80",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 7
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 26,
+            "DisplayValue": "26",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1010,
+            "DisplayValue": "1010.000000",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 14,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 18,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 10763,
+            "DisplayValue": "10763",
+            "Offset": 19,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 50242,
+            "DisplayValue": "50242",
+            "Offset": 23,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 256901.02,
+            "DisplayValue": "256901.015625",
+            "Offset": 25,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 2.2184322E+28,
+            "DisplayValue": "22184322417341009625767477248.000000",
+            "Offset": 29,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 33,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 1383,
+            "DisplayValue": "1383",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 103,
+            "DisplayValue": "103",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 724249599,
+            "DisplayValue": "724249599",
+            "Offset": 37,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": null,
+            "DisplayValue": "Error: Offset 41 is out of range",
+            "Offset": 41,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.42byte"
+      },
+      {
+        "Timestamp": "2025-09-11T12:03:30.3364064+03:00",
+        "RawDataHex": "7E 04 12 34 38 30 00 00 00 1A 44 7C 80 00 00 00 00 01 00 00 00 2A 0B C4 42 48 7A E1 41 6E 8F 5C E2 01 05 67 67 2B 2B 2B FF",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 4,
+            "DisplayValue": "4",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4660,
+            "DisplayValue": "4660",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 56,
+            "DisplayValue": "56",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 0
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 26,
+            "DisplayValue": "26",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1010,
+            "DisplayValue": "1010.000000",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 14,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 18,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 10763,
+            "DisplayValue": "10763",
+            "Offset": 19,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 50242,
+            "DisplayValue": "50242",
+            "Offset": 23,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 256901.02,
+            "DisplayValue": "256901.015625",
+            "Offset": 25,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": 2.2184322E+28,
+            "DisplayValue": "22184322417341009625767477248.000000",
+            "Offset": 29,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 33,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 1383,
+            "DisplayValue": "1383",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 103,
+            "DisplayValue": "103",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 724249599,
+            "DisplayValue": "724249599",
+            "Offset": 37,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": null,
+            "DisplayValue": "Error: Offset 41 is out of range",
+            "Offset": 41,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.42byte"
+      },
+      {
+        "Timestamp": "2025-09-11T14:05:19.442165+03:00",
+        "RawDataHex": "7E 01 12 34 00 32 00 00 00 1E 44 7A 24 00 00 00 00 41 01 00 00 03 E8 0B B8 41 20 00 00 C1 20 00 00 E2 01 02 00 65 13 88 00 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4660,
+            "DisplayValue": "4660",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 0
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 30,
+            "DisplayValue": "30",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1000.5625,
+            "DisplayValue": "1000.562500",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 65,
+            "DisplayValue": "65",
+            "Offset": 14,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 18,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 1000,
+            "DisplayValue": "1000",
+            "Offset": 19,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3000,
+            "DisplayValue": "3000",
+            "Offset": 23,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 10,
+            "DisplayValue": "10.000000",
+            "Offset": 25,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": -10,
+            "DisplayValue": "-10.000000",
+            "Offset": 29,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -30,
+            "DisplayValue": "-30",
+            "Offset": 33,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 258,
+            "DisplayValue": "258",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1695778816,
+            "DisplayValue": "1695778816",
+            "Offset": 37,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 41,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.42byte"
+      },
+      {
+        "Timestamp": "2025-09-11T14:10:02.363124+03:00",
+        "RawDataHex": "7E 01 12 34 00 32 00 00 00 1E 44 7A 24 00 00 00 00 41 01 00 00 03 E8 0B B8 41 20 00 00 C1 20 00 00 E2 01 02 00 65 13 88 00 7F",
+        "ParsedFields": [
+          {
+            "FieldName": "start",
+            "Meaning": "start",
+            "ParsedValue": "7E",
+            "DisplayValue": "7E",
+            "Offset": 0,
+            "Length": 1,
+            "Type": 8
+          },
+          {
+            "FieldName": "version",
+            "Meaning": "version",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 1,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "deviceID",
+            "Meaning": "deviceID",
+            "ParsedValue": 4660,
+            "DisplayValue": "4660",
+            "Offset": 2,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "cpu usage",
+            "Meaning": "cpu usage",
+            "ParsedValue": 50,
+            "DisplayValue": "50",
+            "Offset": 4,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "tempature",
+            "Meaning": "tempature",
+            "ParsedValue": 30,
+            "DisplayValue": "30",
+            "Offset": 6,
+            "Length": 4,
+            "Type": 5
+          },
+          {
+            "FieldName": "pressure",
+            "Meaning": "pressure",
+            "ParsedValue": 1000.5625,
+            "DisplayValue": "1000.562500",
+            "Offset": 10,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "humidity",
+            "Meaning": "humidity",
+            "ParsedValue": 65,
+            "DisplayValue": "65",
+            "Offset": 14,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "status",
+            "Meaning": "status",
+            "ParsedValue": 1,
+            "DisplayValue": "1",
+            "Offset": 18,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "counter",
+            "Meaning": "counter",
+            "ParsedValue": 1000,
+            "DisplayValue": "1000",
+            "Offset": 19,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "battery",
+            "Meaning": "battery",
+            "ParsedValue": 3000,
+            "DisplayValue": "3000",
+            "Offset": 23,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "latitude",
+            "Meaning": "latitude",
+            "ParsedValue": 10,
+            "DisplayValue": "10.000000",
+            "Offset": 25,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "longitude",
+            "Meaning": "longitude",
+            "ParsedValue": -10,
+            "DisplayValue": "-10.000000",
+            "Offset": 29,
+            "Length": 4,
+            "Type": 6
+          },
+          {
+            "FieldName": "rssi",
+            "Meaning": "rssi",
+            "ParsedValue": -30,
+            "DisplayValue": "-30",
+            "Offset": 33,
+            "Length": 1,
+            "Type": 1
+          },
+          {
+            "FieldName": "fwVersion",
+            "Meaning": "fwVersion",
+            "ParsedValue": 258,
+            "DisplayValue": "258",
+            "Offset": 34,
+            "Length": 2,
+            "Type": 2
+          },
+          {
+            "FieldName": "errorCode",
+            "Meaning": "errorCode",
+            "ParsedValue": 0,
+            "DisplayValue": "0",
+            "Offset": 36,
+            "Length": 1,
+            "Type": 0
+          },
+          {
+            "FieldName": "timestamp",
+            "Meaning": "timestamp",
+            "ParsedValue": 1695778816,
+            "DisplayValue": "1695778816",
+            "Offset": 37,
+            "Length": 4,
+            "Type": 4
+          },
+          {
+            "FieldName": "end",
+            "Meaning": "end",
+            "ParsedValue": "7F",
+            "DisplayValue": "7F",
+            "Offset": 41,
+            "Length": 1,
+            "Type": 8
+          }
+        ],
+        "DeviceName": "testdevice.42byte"
+      }
+    ]
+  },
+  {
+    "Name": "Device 12",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 17",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 19",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "sadassa",
+        "Meaning": "sadassa",
+        "Offset": 1,
+        "Length": 2,
+        "Type": 7,
+        "Endian": 0,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": []
+  },
+  {
+    "Name": "NEO-M8N",
+    "PayloadFormat": 1,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 10",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 1",
+    "PayloadFormat": 0,
+    "Endian": 0,
+    "InputIsHexDump": false,
+    "Fields": [],
+    "Reports": []
+  },
+  {
+    "Name": "Device 4",
+    "PayloadFormat": 0,
+    "Endian": 1,
+    "InputIsHexDump": false,
+    "Fields": [
+      {
+        "Name": "start",
+        "Meaning": "start",
+        "Offset": 0,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "version",
+        "Meaning": "version",
+        "Offset": 1,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "deviceID",
+        "Meaning": "deviceID",
+        "Offset": 2,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "cpu usage",
+        "Meaning": "cpu usage",
+        "Offset": 4,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "temperature",
+        "Meaning": "temperature",
+        "Offset": 5,
+        "Length": 4,
+        "Type": 5,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "pressure",
+        "Meaning": "pressure",
+        "Offset": 9,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "humidity",
+        "Meaning": "humidity",
+        "Offset": 13,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "status",
+        "Meaning": "status",
+        "Offset": 15,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "counter",
+        "Meaning": "counter",
+        "Offset": 16,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "battery",
+        "Meaning": "battery",
+        "Offset": 20,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "latitude",
+        "Meaning": "latitude",
+        "Offset": 22,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "longitude",
+        "Meaning": "longitude",
+        "Offset": 26,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "altitude",
+        "Meaning": "altitude",
+        "Offset": 30,
+        "Length": 4,
+        "Type": 6,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "speed",
+        "Meaning": "speed",
+        "Offset": 34,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "rssi",
+        "Meaning": "rssi",
+        "Offset": 36,
+        "Length": 1,
+        "Type": 1,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "fwVersion",
+        "Meaning": "fwVersion",
+        "Offset": 37,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "errorCode",
+        "Meaning": "errorCode",
+        "Offset": 39,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "signalQual",
+        "Meaning": "signalQual",
+        "Offset": 40,
+        "Length": 1,
+        "Type": 0,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "uptime",
+        "Meaning": "uptime",
+        "Offset": 41,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "co2 ppm",
+        "Meaning": "co2 ppm",
+        "Offset": 45,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "voc level",
+        "Meaning": "voc level",
+        "Offset": 47,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "checksum",
+        "Meaning": "checksum",
+        "Offset": 49,
+        "Length": 2,
+        "Type": 2,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "reserved",
+        "Meaning": "reserved",
+        "Offset": 51,
+        "Length": 4,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "timestamp",
+        "Meaning": "timestamp",
+        "Offset": 55,
+        "Length": 4,
+        "Type": 4,
+        "Endian": 1,
+        "ExpectedHex": ""
+      },
+      {
+        "Name": "end",
+        "Meaning": "end",
+        "Offset": 59,
+        "Length": 1,
+        "Type": 8,
+        "Endian": 1,
+        "ExpectedHex": ""
+      }
+    ],
+    "Reports": []
+  }
+]

@@ -1,0 +1,14 @@
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\bin\Release\net8.0-windows\TcpTool.exe
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\bin\Release\net8.0-windows\TcpTool.deps.json
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\bin\Release\net8.0-windows\TcpTool.runtimeconfig.json
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\bin\Release\net8.0-windows\TcpTool.dll
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\bin\Release\net8.0-windows\TcpTool.pdb
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.AssemblyInfoInputs.cache
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.AssemblyInfo.cs
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.csproj.CoreCompileInputs.cache
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.dll
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\refint\TcpTool.dll
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.pdb
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\TcpTool.genruntimeconfig.cache
+c:\Users\Emin Yıldırım\Desktop\test.7\TcpTool\obj\Release\net8.0-windows\ref\TcpTool.dll
