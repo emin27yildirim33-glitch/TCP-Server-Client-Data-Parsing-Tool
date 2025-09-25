@@ -1,8 +1,11 @@
 # TCP Server-Client & Data Parsing Tool
 
 The motivation behind this project is the fact that TCP is only a transport protocol that guarantees reliable communication, but does not define any message format at the application level. Applications that communicate over TCP must decide for themselves how the data will be structured and interpreted.
+
 In contrast, protocols such as SNMP not only provide the communication channel but also standardize the message format. With SNMP's PDU structures and MIB tables, both the way messages are packaged and the meaning of each field are predefined, allowing devices to communicate in a common language.
+
 This application is designed with that distinction in mind. While it functions like a simple TCP server-client tool, what sets it apart is its data parsing capability. In other words, it doesn't just transfer raw data end-to-end; it also parses and interprets the incoming data based on predefined rules. This adds a layer of structure and standardization at the application level, complementing TCP's "deliver but don't interpret" approach.
+
 Thus, the project combines the transport reliability of TCP with an SNMP-like approach to meaningful and standardized message formatting. This enables different applications to exchange data consistently and in a way that is easy to process.
 
 ________________________________________
@@ -166,6 +169,7 @@ Below is an example of exported device data:
 3. Open Manage Devices to create or import a device definition (use Import JSON to load datasheet fields), then Save.
 4. In Manage Devices > Parsing, select the device and click "Capture Last Received Data" to parse the most recent payload.
 5. Switch to Reports to review parsed results. Use the Export button to save parsed reports as JSON
+
 
 
 
